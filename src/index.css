@@ -83,7 +83,7 @@ body {
       rgba(0, 44, 2, 0.7) 0%,
       rgba(0, 44, 2, 0.7) 100%
     ),
-    url("src/assets/organic_bg.png");
+    url("src/assets/organic_bg1.png");
   background-size: cover;
   background-position: center;
 }
