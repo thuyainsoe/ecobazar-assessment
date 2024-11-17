@@ -116,7 +116,7 @@ const OurFeaturedProduct = () => {
                         <Stars size={12} />
                       </div>
                     </div>
-                    <div className="w-[40px] h-[40px] bg-offwhite rounded-[50%] flex items-center justify-center">
+                    <div className="w-[40px] h-[40px] bg-offwhite rounded-[50%] flex items-center justify-center icon">
                       <BlackCart />
                     </div>
                   </div>
