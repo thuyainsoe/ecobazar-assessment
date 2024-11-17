@@ -60,8 +60,11 @@ const OurFeaturedProduct = () => {
             <h2 className="font-[600] text-[28px] lg:text-[32px] text-brandsuccess mt-[8px]">
               75% off
             </h2>
-            <button className="flex w-fit px-[22px] lg:px-[32px] h-[45px] text-nowrap rounded-[43px] bg-white items-center gap-[12px] text-brandsuccess font-[600] mt-[16px] text-sm">
-              Shop Now <ButtonRightArrow color="#00B307" />
+            <button className="flex w-fit px-[22px] lg:px-[32px] h-[45px] text-nowrap rounded-[43px] group bg-white items-center gap-[12px] text-brandsuccess font-[600] mt-[16px] text-sm">
+              Shop Now
+              <span className="group-hover:translate-x-2 transition-all duration-150">
+                <ButtonRightArrow color="#00B307" />
+              </span>
             </button>
           </div>
         </div>

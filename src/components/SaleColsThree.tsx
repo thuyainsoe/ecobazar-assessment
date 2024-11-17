@@ -47,8 +47,11 @@ const SaleColsThree = () => {
               Sale of the Month
             </h1>
             <img className="mt-[8px]" src={cardTime} alt="" />
-            <button className="flex w-fit px-[32px] h-[45px] rounded-[43px] bg-white items-center gap-[12px] text-brandsuccess font-[600] mt-[24px] text-sm">
-              Shop Now <ButtonRightArrow color="#00B307" />
+            <button className="flex group w-fit px-[32px] h-[45px] rounded-[43px] bg-white items-center gap-[12px] text-brandsuccess font-[600] mt-[24px] text-sm">
+              Shop Now
+              <span className="group-hover:translate-x-2 transition-all duration-150">
+                <ButtonRightArrow color="#00B307" />
+              </span>
             </button>
           </div>
         </div>
@@ -67,8 +70,11 @@ const SaleColsThree = () => {
               Started at
               <span className="text-warning font-[600] text-xl">$79.99</span>
             </div>
-            <button className="flex w-fit px-[32px] h-[45px] rounded-[43px] bg-white items-center gap-[12px] text-brandsuccess font-[600] mt-[24px] text-sm">
-              Shop Now <ButtonRightArrow color="#00B307" />
+            <button className="flex group w-fit px-[32px] h-[45px] rounded-[43px] bg-white items-center gap-[12px] text-brandsuccess font-[600] mt-[24px] text-sm">
+              Shop Now
+              <span className="group-hover:translate-x-2 transition-all duration-150">
+                <ButtonRightArrow color="#00B307" />
+              </span>
             </button>
           </div>
         </div>
@@ -89,8 +95,11 @@ const SaleColsThree = () => {
                 64% OFF
               </span>
             </div>
-            <button className="flex w-fit px-[32px] h-[45px] rounded-[43px] bg-white items-center gap-[12px] text-brandsuccess font-[600] mt-[24px] text-sm">
-              Shop Now <ButtonRightArrow color="#00B307" />
+            <button className="flex group w-fit px-[32px] h-[45px] rounded-[43px] bg-white items-center gap-[12px] text-brandsuccess font-[600] mt-[24px] text-sm">
+              Shop Now
+              <span className="group-hover:translate-x-2 transition-all duration-150">
+                <ButtonRightArrow color="#00B307" />
+              </span>
             </button>
           </div>
         </div>

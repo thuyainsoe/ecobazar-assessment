@@ -132,9 +132,12 @@ const CategoryAndHero = () => {
             </p>
             <button
               className="h-[50px] px-[40px] w-fit py-[16px] bg-brandsuccess flex items-center mt-[32px] gap-[16px]
-            rounded-[43px] text-base font-[600] text-white"
+            rounded-[43px] text-base font-[600] text-white group"
             >
-              Shop now <ButtonRightArrow />
+              Shop now
+              <span className="group-hover:translate-x-2 transition-all duration-150">
+                <ButtonRightArrow />
+              </span>
             </button>
           </div>
         </div>

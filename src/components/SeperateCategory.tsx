@@ -174,8 +174,11 @@ const SeperateCategory = () => {
               Save 37%
               <span className="font-[400] text-[30px]">on Every Order</span>
             </h1>
-            <button className="flex w-fit px-[32px] h-[45px] rounded-[43px] bg-white items-center gap-[12px] text-brandsuccess font-[600] mt-[24px] text-sm">
-              Shop Now <ButtonRightArrow color="#00B307" />
+            <button className="flex group w-fit px-[32px] h-[45px] rounded-[43px] bg-white items-center gap-[12px] text-brandsuccess font-[600] mt-[24px] text-sm">
+              Shop Now
+              <span className="group-hover:translate-x-2 transition-all duration-150">
+                <ButtonRightArrow color="#00B307" />
+              </span>
             </button>
           </div>
         </div>
