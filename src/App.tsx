@@ -19,7 +19,7 @@ import Copyright from "./components/Copyright";
 function App() {
   return (
     <MainProvider>
-      <div className="main-container overflow-hidden">
+      <div className="main-container overflow-hidden max-w-[2500px]">
         <TopBar />
         <MainNavBar />
         <SubNavBar />

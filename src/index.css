@@ -26,7 +26,7 @@
 }
 
 body {
-  @apply font-poppins text-[20px];
+  @apply font-poppins;
 }
 
 .main-container {
