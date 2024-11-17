@@ -95,30 +95,34 @@ const CategoryAndHero = () => {
   return (
     <div className="w-full mt-[10px] lg:mt-[24px] flex flex-col md:flex-row">
       {/* left section */}
-      {isClickCategory && (
-        <div className="w-full md:w-[35%] lg:w-[23.6363%] mb-[10px] md:mb-0">
-          <ul className="w-full border border-lightgray">
-            {categoriesData.map((item) => (
-              <li
-                className={`${
-                  item.isActive && "active-icon text-white bg-brandsuccess"
-                } py-[16px] px-[20px] flex items-center gap-[12px] border-b border-lightgray cursor-pointer`}
-                onClick={() => handleClickItem(item.id)}
-              >
-                {item.icon}
-                <span className="text-sm">{item.name}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      <div
+        className={`${
+          !isClickCategory
+            ? "hidden"
+            : "w-full md:w-[35%] lg:w-[23.6363%] mb-[10px] md:mb-0"
+        } `}
+      >
+        <ul className="w-full border border-lightgray">
+          {categoriesData.map((item) => (
+            <li
+              className={`${
+                item.isActive && "active-icon text-white bg-brandsuccess"
+              } py-[16px] px-[20px] flex items-center gap-[12px] border-b border-lightgray cursor-pointer`}
+              onClick={() => handleClickItem(item.id)}
+            >
+              {item.icon}
+              <span className="text-sm">{item.name}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
 
       {/* right section */}
       <div
         className={`${
           isClickCategory
             ? "w-full  md:w-[65%] lg:w-[76.3637%] md:ml-[10px] lg:ml-[24px]"
-            : "w-full"
+            : "w-full "
         }`}
       >
         <div className="w-full h-auto bg-[url('/src/assets/hero_img1.png')] min-h-[572px] bg-cover px-[30px] md:px-[48px] flex items-center">

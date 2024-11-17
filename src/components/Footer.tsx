@@ -80,7 +80,7 @@ const Footer = () => {
         <h6 className="text-black2 text-base font-[500]">
           Download Mobile App
         </h6>
-        <div className="flex gap-[8px] w-full flex-col xl:flex-row text-nowrap  ">
+        <div className="flex gap-[8px] w-full flex-row md:flex-col xl:flex-row text-nowrap  ">
           <div className="w-[152px] xl:w-1/2 flex items-center gap-[6px] p-[10px] bg-white">
             <div className="min-w-[28px]">
               <AppleIcon />
