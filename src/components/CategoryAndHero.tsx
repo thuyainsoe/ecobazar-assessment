@@ -121,8 +121,8 @@ const CategoryAndHero = () => {
       <div
         className={`${
           isClickCategory
-            ? "w-full  md:w-[65%] lg:w-[76.3637%] md:ml-[10px] lg:ml-[24px]"
-            : "w-full "
+            ? "w-full  md:w-[65%] lg:w-[calc(76.3637%-24px)] md:ml-[10px] lg:ml-[24px]"
+            : "w-full"
         }`}
       >
         <div className="w-full h-auto bg-[url('/src/assets/hero_img1.png')] min-h-[572px] bg-cover px-[30px] md:px-[48px] flex items-center">
